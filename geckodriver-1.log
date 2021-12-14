@@ -1,0 +1,19 @@
+1639390799522	geckodriver	INFO	Listening on 127.0.0.1:58617
+1639390802586	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dennypc\\AppData\\Local\\Temp\\rust_mozprofileHPIoj8"
+1639390803643	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dennypc\\AppData\\Local\\Temp\\rust_mozprofileHPIoj8\\search.json.mozlz4", (void 0)))
+1639390807711	Marionette	INFO	Listening on port 58626
+1639390808132	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3-ap-southeast-2.amazonaws.com/assets.sandbox.paperlust.co/assets/js/frontend/engine.js?v=1635151364, line 1282: unreachable code after return statement
+JavaScript warning: https://s3-ap-southeast-2.amazonaws.com/assets.sandbox.paperlust.co/assets/js/frontend/engine.js?v=1635151364, line 1282: unreachable code after return statement
+1639390834693	Marionette	INFO	Stopped listening on port 58626
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:326:29
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: chrome://remote/content/marionette/driver.js, line 2146: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
